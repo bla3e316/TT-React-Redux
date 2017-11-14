@@ -1,11 +1,12 @@
 {
   "presets": [
-    "es2015",
+    "env",
     "react"
   ],
-  "env": {
-    "development": {
-      "presets": []
-    }
-  }
+  "plugins": [
+    "transform-class-properties",
+    "transform-decorators",
+    "transform-react-constant-elements",
+    "transform-react-inline-elements"
+  ]
 }
